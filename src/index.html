@@ -2,12 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>HTML, CSS and SASS Boilerplate</title>
     <meta
       name="description"
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <form action="/my-handling-form-page" method="post">
+ <ul>
+  <li>
+    <label for="name">Name (20 to 22 characters):</label>
+
+<input type="text" id="name" name="name" required
+       minlength="20" maxlength="22">
+  </li>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+ </ul>
+ <dl>description</dl>
+</form>
   </head>
   <body>
     <div class="main">
